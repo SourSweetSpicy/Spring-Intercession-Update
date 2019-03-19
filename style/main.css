@@ -29,7 +29,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
     min-width: 25px;
     align-content: center;
 }
@@ -49,6 +48,7 @@ li a {
     padding-top: 14px;
     padding-bottom: 14px;
     text-decoration: none;
+    background-color: white
 }
 
 li a:hover:not(.active) {

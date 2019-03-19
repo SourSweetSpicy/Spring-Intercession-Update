@@ -17,6 +17,7 @@
         <script>
         	var blackboy = document.getElementById("darkMode")
             var dark = false
+            var block = document.getElementById("theBlock")
             function blackmode () {
                 if (dark==false){
                 document.body.style.backgroundColor = "black";
@@ -39,7 +40,7 @@
 };
             darkMode.onclick=blackmode
         </script>
-             <ul style="list-style-type: none;">
+             <ul id='theBlock' style="list-style-type: none;">
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="subpage/anime.html">Anime</a>
   <li><a href="subpage/videogames.html">Video Games</a></li>
